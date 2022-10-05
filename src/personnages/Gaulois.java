@@ -35,11 +35,11 @@ public class Gaulois {
 		+ ", effetPotion=" + effetPotion + "]";
 }
 	
-	public static void main(String[] args) {
-			Gaulois asterix= new Gaulois("Astérix",8);
-			System.out.println(asterix);
-			System.out.println(parler('text'));
+//	public static void main(String[] args) {
+//			Gaulois asterix= new Gaulois("Astérix",8);
+//			System.out.println(asterix);
+//			System.out.println(parler("text"));
 			
-			}
+//			}
 	
 }
