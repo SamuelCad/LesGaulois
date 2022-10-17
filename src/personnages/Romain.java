@@ -4,6 +4,8 @@ public class Romain {
 	
 	private String nom;
 	private int force;
+	private  Equipement[] equipement= new Equipement[2];
+	private int nbEquipement = 0;
 	
 	public Romain(String nom, int force) {
 		this.nom = nom;
@@ -34,9 +36,23 @@ public class Romain {
 		assert force1!=force;
 	}
 	
+	
+	
+	public void sEquiper(Equipement[] equipement) {
+		
+		switch (equipement) {
+		
+		
+		}
+	}
+	
+	
+	
+	
 	public static void main(String[] args){
-	Romain minus = new Romain("Minus",6);
-	System.out.println(minus.getNom());
+//	Romain minus = new Romain("Minus",6);
+	System.out.println(Equipement.CASQUE);
+	System.out.println(Equipement.BOUCLIER);
 	}
 	
 }
