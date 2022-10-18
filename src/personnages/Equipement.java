@@ -1,5 +1,5 @@
 package personnages;
 
 public enum Equipement {
-CASQUE,BOUCLIER;
+CASQUE,BOUCLIER,BBD;
 }
