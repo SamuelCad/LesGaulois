@@ -16,8 +16,12 @@ public class Romain {
 		return nom;
 	}
 	
+	public int getForce() {
+		return force;
+	}
+	
 	public void parler(String texte) {
-		System.out.println(prendreParole() + "« " + texte + "»");
+		System.out.println(prendreParole() + "Â«" + texte + "Â»");
 	}
 	
 	private String prendreParole() {
@@ -29,7 +33,7 @@ public class Romain {
 		int force1=force;
 		force -= forceCoup;
 		if (force > 0) {
-			parler("Aïe");
+			parler("AÃ¯e");
 		} else {
 			parler("J'abandonne...");
 		}
@@ -38,21 +42,20 @@ public class Romain {
 	
 	
 	
-	public void sEquiper(Equipement[] equipement) {
+//	public void sEquiper(Equipement[] equipement) {
 		
-		switch (equipement) {
+//		switch (equipement) {
 		
 		
-		}
-	}
+//		}
+//	}
 	
-	
-	
-	
+		
 	public static void main(String[] args){
-//	Romain minus = new Romain("Minus",6);
-	System.out.println(Equipement.CASQUE);
-	System.out.println(Equipement.BOUCLIER);
+	Romain minus = new Romain("Minus",6);
+//	minus.recevoirCoup(4);
+//	System.out.println(Equipement.CASQUE);
+//	System.out.println(Equipement.BOUCLIER);
 	}
 	
 }
