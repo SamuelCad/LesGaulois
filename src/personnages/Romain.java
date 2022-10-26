@@ -42,13 +42,15 @@ public class Romain {
 	
 	
 	
-//	public void sEquiper(Equipement[] equipement) {
+	public int sEquiper(Equipement[] equipement) {
 		
-//		switch (equipement) {
+		switch (equipement) {
+		case CASQUE:
+			
+			
 		
-		
-//		}
-//	}
+		}
+	}
 	
 		
 	public static void main(String[] args){
